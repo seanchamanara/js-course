@@ -1,10 +1,12 @@
 describe("Player", function() {
   var player;
   var song;
+  var songInfo;
 
   beforeEach(function() {
     player = new Player();
     song = new Song();
+    songInfo = new SongInfo();
   });
 
   it("should be able to play a Song", function() {
